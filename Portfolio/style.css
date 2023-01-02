@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(grey, rgb(37, 32, 32));
+}
+
+.header {
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+}
+
+.header span {
+    color: rgba(238, 17, 17, 0.815);
+}
+
+.links a {
+    float: right;
+    margin: 20px;
+    color: rgba(239, 241, 241, 0.719);
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.links a:link,
+a:visited {
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.links a:hover,
+a:active {
+    background-color: rgba(238, 17, 17, 0.815);
+    color: white;
+}
+
+.links a span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titles {
+
+    float: left;
+    color: rgb(214, 211, 211);
+    padding-top: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.titles span {
+    color: rgba(238, 17, 17, 0.815);
+}
+
+
+.image {
+    margin-top: 80px;
+    margin-right: 200px;
+    border-radius: 10px;
+    float: right;
+    background-image: url(Apurbo1.jpg);
+    height: 315px;
+    width: 316px;
+}
